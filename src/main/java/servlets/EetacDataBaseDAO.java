@@ -60,7 +60,19 @@ public class EetacDataBaseDAO extends Dao implements EetacInterface {
     public void addEtakemon(String name, Etakemon etakemon) throws NoSuchMethodException, Explosiones, IllegalAccessException, SQLException, InvocationTargetException, ClassNotFoundException {
 
         users us= new users(name);
-        List<Etakemon> etakemons= us.selectEtakemons();
+        List<Etakemon> etakemons;
+        try {
+            etakemons = us.selectEtakemons();
+        }
+        catch (Exception e)
+        {
+            etakemons= new ArrayList<Etakemon>();
+            etakemons.add(etakemon);
+        }
+        if(etakemons==null)
+        {
+            etakemons= new ArrayList<Etakemon>();
+        }
         etakemons.add(etakemon);
         us.setUserscol(etakemons);
         us.updateEtakemon();

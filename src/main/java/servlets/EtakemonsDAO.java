@@ -60,7 +60,7 @@ public class EtakemonsDAO extends HttpServlet {
 
             if (found==false) {
                 ret = "Etakemon creado: " + name;
-                EetacDataBaseDAO.getInstance().addEtakemon(name, etakemon);
+                EetacDataBaseDAO.getInstance().addEtakemon(myuser, etakemon);
             }
 
             else {
