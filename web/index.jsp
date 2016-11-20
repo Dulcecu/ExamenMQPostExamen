@@ -33,6 +33,28 @@
                     else{ $("#res").text(responseText);}
                 });
             });
+            $("#btn4").click(function (){
+                var name= $("#name").val();
+                var password= $("#password").val();
+                $.post("/RegisterDAO",{name:name,password:password},function(responseText) {
+                    if(responseText!="Usuario existente") {
+                        window.location = "User.jsp";
+                        document.cookie=name;
+                    }
+                    else{$("#res").text(responseText);}
+                });
+            });
+            $("#btn3").click(function (){
+                var name= $("#name").val();
+                var password= $("#password").val();
+                $.get("/RegisterDAO",{name:name,password:password},function(responseText) {
+                    if(responseText!="Error al autenticarse") {
+                        document.cookie=name;
+                        window.location = "User.jsp";
+                    }
+                    else{ $("#res").text(responseText);}
+                });
+            });
         });
     </script>
 
@@ -65,6 +87,8 @@
 
                 <button id="btn1" class="btn btn-primary center-block">Iniciar session</button>
                 <button id="btn2" class="btn btn-primary center-block">Registrarse</button>
+                <button id="btn3" class="btn btn-primary center-block">Iniciar session DAO</button>
+                <button id="btn4" class="btn btn-primary center-block">Registrarse DAO</button>
                 <p id="res"></p>
 
             </div>

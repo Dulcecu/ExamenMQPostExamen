@@ -25,23 +25,19 @@ public class Etakemons extends HttpServlet {
         sol=EetacDataBase.getInstance().getetakemons(myuser);
         Etakemon etakemon= new Etakemon(name,description);
 try {
-    if (!sol.contains(name)) {
+    if (!sol.get(0).getName().equals(name)) {
         ret = "Etakemon creado: " + name;
-        EetacDataBase.getInstance().addEtakemon(name, etakemon);
+        EetacDataBase.getInstance().addEtakemon(myuser, etakemon);
     }
 
         else {
             ret = "Etakemon existente";
         }
-
 }
         catch (Exception e){
             ret = "Etakemon creado: " + name;
             EetacDataBase.getInstance().addEtakemon(myuser, etakemon);
     }
-
-
-
         response.setContentType("application/html");
         response.setCharacterEncoding("UTF-8");
         response.getWriter().write(ret);

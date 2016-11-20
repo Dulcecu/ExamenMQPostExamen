@@ -15,63 +15,63 @@ import java.sql.SQLException;
 
 public class EetacTest extends TestCase {
 
-    EetacInterface eint;
     users ud;
     String name;
     String password;
-    int id;
     Etakemon etakemon;
     @Before
     public void setUp() throws Exception {
         etakemon=new Etakemon("Grig","El grig");
         name="Bort";
         password="Bortpls";
-    eint= new EetacDataBase();
     ud=new users("Bort","Bortpls");
     }
 
     @After
     public void tearDown() throws Exception {
 
-        eint=null;
         ud=null;
 
     }
     @Test
     public void testaddUser() throws Exception {
 
-        eint.addUser(name,password);
+        EetacDataBase.getInstance().addUser(name,password);
 
     }
     @Test
     public void testudpdateUser() throws Exception {
 
+        EetacDataBase.getInstance().addUser(name,password);
         name="Lobo";
         password="Loslobos";
-        eint.updateUser(name,password);
+        EetacDataBase.getInstance().updateUser(name,password);
 
     }
     @Test
     public void testgetUser() throws Exception {
 
-        eint.getUser(name);
+        EetacDataBase.getInstance().getUser(name);
     }
     @Test
     public void testgetEtakemon() throws Exception {
 
-        eint.getetakemons(name);
+        EetacDataBase.getInstance().addUser(name,password);
+        EetacDataBase.getInstance().addEtakemon(name,etakemon);
+        EetacDataBase.getInstance().getetakemons(name);
 
     }
     @Test
     public void testaddEtakemon() throws Exception {
 
-        eint.addEtakemon(name,etakemon);
+        EetacDataBase.getInstance().addUser(name,password);
+        EetacDataBase.getInstance().addEtakemon(name,etakemon);
 
     }
     @Test
     public void testAlphabeticUser() throws Exception {
 
-       eint.AlphabeticUser();
+        EetacDataBase.getInstance().AlphabeticUser();
 
     }
 

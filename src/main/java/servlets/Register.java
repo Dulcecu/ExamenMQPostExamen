@@ -44,12 +44,15 @@ public class Register extends HttpServlet {
         users sol = null;
         String name = request.getParameter("name");
         String password = request.getParameter("password");
-
-
         sol = EetacDataBase.getInstance().getUser(name);
-        if (sol != null) {
+        try {
+            if (sol.getPassword().equals(password)) {
                 ret = "Acceso autorizado: " + name;
-        } else {
+            } else {
+                ret = "Error al autenticarse";
+            }
+        }
+        catch (Exception e){
             ret = "Error al autenticarse";
         }
 

@@ -9,10 +9,7 @@ import java.util.*;
  */
 public class EetacDataBaseDAO extends Dao implements EetacInterface {
     private static EetacDataBaseDAO instance;
-    private HashMap<String,users> eetacusers;
-
     public  EetacDataBaseDAO(){
-        eetacusers= new HashMap<String, users>();
 
     }
     public  static EetacDataBaseDAO getInstance(){
@@ -22,11 +19,6 @@ public class EetacDataBaseDAO extends Dao implements EetacInterface {
 
     public ArrayList<users> AlphabeticUser() {
         ArrayList<users> us= new ArrayList<users>();
-        for (HashMap.Entry<String, users> entry : eetacusers.entrySet())
-        {
-            us.add(entry.getValue());
-
-        }
         if (us.size() > 0) {
             Collections.sort(us, new Comparator<users>() {
                 public int compare(final users object1, final users object2) {
@@ -40,7 +32,6 @@ public class EetacDataBaseDAO extends Dao implements EetacInterface {
     public void addUser(String name, String password) throws SQLException, NoSuchMethodException, ClassNotFoundException, IllegalAccessException, InvocationTargetException {
 
         users us = new users(name,password);
-        eetacusers.put(name,us);
         us.insert();
 
     }
@@ -48,30 +39,31 @@ public class EetacDataBaseDAO extends Dao implements EetacInterface {
     public void updateUser(String name, String password) throws SQLException, NoSuchMethodException, ClassNotFoundException, IllegalAccessException, InvocationTargetException {
 
         users us = new users(name,password);
-        eetacusers.put(name,us);
         us.update();
 
     }
 
     public users getUser(String name) throws NoSuchMethodException, Explosiones, IllegalAccessException, SQLException, InvocationTargetException, ClassNotFoundException {
-        users us=eetacusers.get(name);
-        String user=us.select();
-        String[] parts= user.split("-");
-        String[] parts2=parts[0].split(",");
-        users newuser= new users(parts2[1],parts2[2]);
-        return  newuser;
+        users us= new users(name);
+        return us.select();
 
     }
 
     public List<Etakemon> getetakemons(String name) throws NoSuchMethodException, Explosiones, IllegalAccessException, SQLException, InvocationTargetException, ClassNotFoundException {
 
-        users us =eetacusers.get(name);
-        us.selectEtakemons();
-        return null;
+        users us = new users(name);
+        return us.selectEtakemons();
+
 
     }
 
-    public void addEtakemon(String name, Etakemon etakemon) {
+    public void addEtakemon(String name, Etakemon etakemon) throws NoSuchMethodException, Explosiones, IllegalAccessException, SQLException, InvocationTargetException, ClassNotFoundException {
+
+        users us= new users(name);
+        List<Etakemon> etakemons= us.selectEtakemons();
+        etakemons.add(etakemon);
+        us.setUserscol(etakemons);
+        us.updateEtakemon();
 
     }
 }

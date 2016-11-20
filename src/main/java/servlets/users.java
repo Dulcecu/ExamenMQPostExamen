@@ -10,13 +10,17 @@ public class users extends Dao {
 
     public String name;
     public String password;
-    public List<Etakemon> etakemons;
+    public List<Etakemon> userscol;
 
     public users(String name, String password) {
 
-        etakemons= new ArrayList<Etakemon>();
+        this.userscol = new ArrayList<Etakemon>();
         this.name = name;
         this.password = password;
+    }
+
+    public users(String name) {
+        this.name = name;
     }
 
     public String getName() {
@@ -35,11 +39,15 @@ public class users extends Dao {
         this.password = password;
     }
 
-    public List<Etakemon>  getEtakemons(){
-        return  this.etakemons;
+    public List<Etakemon> getUserscol(){
+        return  this.userscol;
     }
 
-    public  void addEtakemon(Etakemon etakemon){
-        this.etakemons.add(etakemon);
+    public  void addUsercol(Etakemon etakemon){
+        this.userscol.add(etakemon);
+    }
+
+    public  void setUserscol( List<Etakemon> etak){
+        this.userscol=etak;
     }
 }

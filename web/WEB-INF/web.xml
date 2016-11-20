@@ -18,6 +18,18 @@
 
     <servlet>
 
+        <servlet-name>RegisterDAO</servlet-name>
+        <servlet-class>servlets.RegisterDAO</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterDAO</servlet-name>
+        <url-pattern>/RegisterDAO</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+
         <servlet-name>Etakemons</servlet-name>
         <servlet-class>servlets.Etakemons</servlet-class>
 
@@ -26,6 +38,18 @@
     <servlet-mapping>
         <servlet-name>Etakemons</servlet-name>
         <url-pattern>/Etakemons</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+
+        <servlet-name>EtakemonsDAO</servlet-name>
+        <servlet-class>servlets.EtakemonsDAO</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EtakemonsDAO</servlet-name>
+        <url-pattern>/EtakemonsDAO</url-pattern>
     </servlet-mapping>
 
 

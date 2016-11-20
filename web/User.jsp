@@ -38,8 +38,27 @@
                     });
 
         });
+            $("#btn3").click(function (){
+                $.get("/EtakemonsDAO",{cookie:cookie},function(responseJson) {
+
+                    var $ul = $("<ul>").appendTo($("#res"));
+                    $.each(responseJson, function(index, item) {
+                        $("<li>").text(item).appendTo($ul)});
+
+
+
+                });
+            });
+            $("#btn4").click(function (){
+                var name= $("#name").val();
+                var description= $("#description").val();
+                $.post("/EtakemonsDAO",{name:name,description:description,cookie:cookie},function(responseJson) {
+                    $("#res").text(responseJson);
+                });
+
+            });
      });
-            </script>
+</script>
 </head>
 <body>
 <div class="container">
@@ -57,6 +76,8 @@
 
         <button id="btn1" class="btn btn-primary center-block">Ver Etakemons</button>
         <button id="btn2" class="btn btn-primary center-block">Insertar Etakemon</button>
+        <button id="btn3" class="btn btn-primary center-block">Ver Etakemons DAO</button>
+        <button id="btn4" class="btn btn-primary center-block">Insertar Etakemon DAO</button>
         <p id="res"></p>
         <footer id="foot01"></footer>
     </div>
