@@ -1,7 +1,7 @@
 package servlets;
 
 import com.google.gson.Gson;
-import com.google.gson.internal.LinkedTreeMap;
+import com.google.gson.reflect.TypeToken;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Type;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,7 @@ public class EtakemonsDAO extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         String ret = null;
-        List<Etakemon> sol = new ArrayList<Etakemon>();
+        List<Etakemon> sol=null;
         String myuser=request.getParameter("cookie");
         String name = request.getParameter("name");
         String description = request.getParameter("description");
@@ -43,7 +44,21 @@ public class EtakemonsDAO extends HttpServlet {
         Etakemon etakemon= new Etakemon(name,description);
         try {
 
-            if (sol.get(0)==null) {
+            Gson gsonSender = new Gson();
+            String json = gsonSender.toJson(sol);
+            Gson gsonReceiver = new Gson();
+            Boolean found =false;
+            List obj = gsonReceiver.fromJson(json, List.class);
+            for(int i=0;i<obj.size();i++) {
+                String etk = obj.get(i).toString();
+                String[] part = etk.split(",");
+                String[] etak = part[0].split("=");
+                if(etak[1].equals(name)){
+                    found=true;
+                }
+            }
+
+            if (found==false) {
                 ret = "Etakemon creado: " + name;
                 EetacDataBaseDAO.getInstance().addEtakemon(name, etakemon);
             }
@@ -97,19 +112,21 @@ public class EtakemonsDAO extends HttpServlet {
             e.printStackTrace();
         }
 
-        try {
-
-            for (int i = 0; i < sol.size(); i++) {
-                ret.add(sol.get(i).getName());
-            }
+        Gson gsonSender = new Gson();
+        String json = gsonSender.toJson(sol);
+        Gson gsonReceiver = new Gson();
+        List obj = gsonReceiver.fromJson(json, List.class);
+        for(int i=0;i<obj.size();i++) {
+            String etk = obj.get(i).toString();
+            String[] part = etk.split(",");
+            String[] etak = part[0].split("=");
+            ret.add(etak[1]);
         }
-        catch (Exception e){
 
-        }
-        String json = new Gson().toJson(ret);
+        String json2 = new Gson().toJson(ret);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
-        response.getWriter().write(json);
+        response.getWriter().write(json2);
 
     }
 }
