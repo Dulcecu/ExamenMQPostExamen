@@ -1,0 +1,442 @@
+2016-11-19 13:40:27 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:40:27 INFO  EetacDataBase:53 - Se crea un usuario y se inserta en el HashMap
+2016-11-19 13:40:42 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:40:42 INFO  EetacDataBase:59 - Se crea un usuario y se actualiza en el HashMap
+2016-11-19 13:40:50 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:40:50 INFO  EetacDataBase:65 - Se recupera el usuario por el nombre de : Bort
+2016-11-19 13:40:56 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:40:56 INFO  EetacDataBase:72 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 13:42:45 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:42:45 INFO  EetacDataBase:73 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 13:42:45 FATAL EetacDataBase:78 - Excepcion : java.lang.NullPointerException
+2016-11-19 13:42:55 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:42:55 INFO  EetacDataBase:84 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 13:43:37 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:43:37 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 13:43:37 FATAL EetacDataBase:90 - Excepcion : java.lang.NullPointerException
+2016-11-19 13:43:42 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:43:42 INFO  EetacDataBase:33 - Se convierte el HashMap a una Lista
+2016-11-19 13:43:42 INFO  EetacDataBase:41 - Se ordena la lista alfabeticamente
+2016-11-19 13:45:01 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:45:10 INFO  EetacDataBase:73 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 13:45:28 FATAL EetacDataBase:78 - Excepcion : java.lang.NullPointerException
+2016-11-19 13:45:50 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:45:55 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 13:46:09 FATAL EetacDataBase:90 - Excepcion : java.lang.NullPointerException
+2016-11-19 13:48:01 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:48:01 INFO  EetacDataBase:53 - Se crea un usuario y se inserta en el HashMap
+2016-11-19 13:48:05 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 13:49:00 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 13:49:00 INFO  EetacDataBase:53 - Se crea un usuario y se inserta en el HashMap
+2016-11-19 13:49:00 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 13:49:00 INFO  EetacDataBase:73 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 14:03:18 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 14:03:18 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:03:18 INFO  EetacDataBase:65 - Se recupera el usuario por el nombre de : bort
+2016-11-19 14:03:20 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:03:20 INFO  EetacDataBase:65 - Se recupera el usuario por el nombre de : bort
+2016-11-19 14:03:20 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:03:20 INFO  EetacDataBase:53 - Se crea un usuario: bort / bort y se inserta en el HashMap
+2016-11-19 14:03:26 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:03:26 INFO  EetacDataBase:65 - Se recupera el usuario por el nombre de : bort
+2016-11-19 14:20:16 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 14:20:16 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:20:16 INFO  EetacDataBase:53 - Se crea un usuario: Bort / Bortpls y se inserta en el HashMap
+2016-11-19 14:20:46 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 14:20:46 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:20:46 INFO  EetacDataBase:53 - Se crea un usuario: Bort / Bortpls y se inserta en el HashMap
+2016-11-19 14:20:46 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:20:46 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 14:20:46 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 14:20:46 INFO  EetacDataBase:73 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 17:20:23 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 17:20:23 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 17:20:23 INFO  EetacDataBase:53 - Se crea un usuario: Bort / Bortpls y se inserta en el HashMap
+2016-11-19 17:20:23 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 17:20:23 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 17:20:23 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 17:20:23 INFO  EetacDataBase:73 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 17:42:15 INFO  EetacDataBase:20 - Se crea el Hashmap eetaccustomers
+2016-11-19 17:42:15 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 17:42:15 INFO  EetacDataBase:53 - Se crea un usuario: Bort / Bortpls y se inserta en el HashMap
+2016-11-19 17:42:15 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 17:42:15 INFO  EetacDataBase:85 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 17:42:15 INFO  EetacDataBase:26 - Se devuleve la instancia
+2016-11-19 17:42:15 INFO  EetacDataBase:73 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:18:08 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:18:08 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:18:08 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : Bort
+2016-11-19 18:18:10 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:18:10 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : Bort
+2016-11-19 18:18:11 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:18:11 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : Bort
+2016-11-19 18:18:11 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:18:11 INFO  EetacDataBase:49 - Se crea un usuario: Bort / Bortpls y se inserta en el HashMap
+2016-11-19 18:18:38 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:18:38 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:18:38 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : aaaa
+2016-11-19 18:19:43 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:19:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:19:43 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:19:45 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:19:45 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:19:45 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:19:45 INFO  EetacDataBase:49 - Se crea un usuario: sasas / sasasa y se inserta en el HashMap
+2016-11-19 18:19:50 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:19:50 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:19:53 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:19:53 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:28:20 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:28:20 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:20 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:20 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:20 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:20 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 18:28:20 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:23 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:23 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:23 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:26 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:26 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:26 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:27 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:27 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:27 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:27 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:27 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:27 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:27 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:27 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:27 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:28 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:28 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:28 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:28 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:28 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 18:28:28 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:28:29 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:28:29 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:28:29 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:29:34 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:29:34 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:29:34 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:29:34 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:29:34 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:29:34 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 18:29:34 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:29:49 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:29:54 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:30:03 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:14 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:31:14 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:14 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:14 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:14 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:14 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bortas
+2016-11-19 18:31:14 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:15 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:15 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:15 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:15 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:15 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bortas
+2016-11-19 18:31:15 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:17 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:17 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:17 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:17 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:18 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:18 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:18 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:18 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:18 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bortas
+2016-11-19 18:31:18 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:57 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:31:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:57 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:31:57 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:57 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-19 18:31:57 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:31:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:31:58 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-19 18:31:58 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:32:29 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:32:29 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:29 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:32:30 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:30 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:32:30 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:30 INFO  EetacDataBase:49 - Se crea un usuario: sasas / sasasa y se inserta en el HashMap
+2016-11-19 18:32:34 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:34 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:32:38 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:38 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:32:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:43 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasas
+2016-11-19 18:32:47 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:47 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : as
+2016-11-19 18:32:48 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:48 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : as
+2016-11-19 18:32:48 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:48 INFO  EetacDataBase:49 - Se crea un usuario: as / sa y se inserta en el HashMap
+2016-11-19 18:32:50 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:50 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : as
+2016-11-19 18:32:53 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:53 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : as
+2016-11-19 18:32:59 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:32:59 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:33:01 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:33:01 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:33:01 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:33:01 INFO  EetacDataBase:49 - Se crea un usuario: bort / bort y se inserta en el HashMap
+2016-11-19 18:33:05 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:33:05 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:34:02 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:34:02 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:02 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : asdf
+2016-11-19 18:34:13 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:13 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : asdf
+2016-11-19 18:34:13 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:13 INFO  EetacDataBase:49 - Se crea un usuario: asdf / asdf y se inserta en el HashMap
+2016-11-19 18:34:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:17 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : asdf
+2016-11-19 18:34:51 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:34:51 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:51 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:34:52 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:52 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:34:52 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:52 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:34:52 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:52 INFO  EetacDataBase:49 - Se crea un usuario: bort / bort y se inserta en el HashMap
+2016-11-19 18:34:56 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:56 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:34:59 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:34:59 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:35:31 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:35:31 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:31 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:35:33 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:33 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : bort
+2016-11-19 18:35:33 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:33 INFO  EetacDataBase:49 - Se crea un usuario: bort / bort y se inserta en el HashMap
+2016-11-19 18:35:39 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:39 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:35:39 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:39 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:35:39 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:35:40 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:40 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:35:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:43 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:35:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:43 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:35:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:43 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:35:43 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:35:44 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:44 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:35:44 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:44 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:35:44 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:44 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:35:44 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:35:44 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:35:44 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : bort
+2016-11-19 18:36:57 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:36:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:36:57 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : asas
+2016-11-19 18:36:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:36:58 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : asas
+2016-11-19 18:36:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:36:58 INFO  EetacDataBase:49 - Se crea un usuario: asas / sasa y se inserta en el HashMap
+2016-11-19 18:37:03 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:37:03 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : asas
+2016-11-19 18:37:03 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:37:03 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : sass
+2016-11-19 18:37:03 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:37:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:37:31 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : asas
+2016-11-19 18:38:25 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:38:25 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:38:25 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : asasa
+2016-11-19 18:38:25 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:38:25 INFO  EetacDataBase:49 - Se crea un usuario: asasa / sasas y se inserta en el HashMap
+2016-11-19 18:38:32 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:38:32 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : asasa
+2016-11-19 18:38:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:38:54 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : sasas
+2016-11-19 18:39:01 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:39:54 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:39:54 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:39:54 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : aaa
+2016-11-19 18:39:54 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:39:54 INFO  EetacDataBase:49 - Se crea un usuario: aaa / aaa y se inserta en el HashMap
+2016-11-19 18:39:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:39:58 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aaa
+2016-11-19 18:39:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:39:58 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : aaaaa
+2016-11-19 18:40:38 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-19 18:41:50 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:41:50 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:50 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : dulce
+2016-11-19 18:41:50 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:50 INFO  EetacDataBase:49 - Se crea un usuario: dulce / dulce y se inserta en el HashMap
+2016-11-19 18:41:53 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:53 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:53 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:53 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:54 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:54 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:54 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:54 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:55 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:55 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:55 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:55 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:57 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:57 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:57 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:57 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:57 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:57 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:57 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:58 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:58 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:58 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:41:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:58 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:41:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:41:58 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:42:27 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:42:27 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:42:27 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : sasasa
+2016-11-19 18:42:27 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:42:27 INFO  EetacDataBase:49 - Se crea un usuario: sasasa / sasasa y se inserta en el HashMap
+2016-11-19 18:42:31 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:42:31 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : sasasa
+2016-11-19 18:42:42 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:42:42 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : sasasa
+2016-11-19 18:42:48 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:42:48 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : sasasa
+2016-11-19 18:43:12 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:43:12 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : sasasa
+2016-11-19 18:44:12 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:44:12 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:12 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : dulce
+2016-11-19 18:44:12 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:12 INFO  EetacDataBase:49 - Se crea un usuario: dulce / ducle y se inserta en el HashMap
+2016-11-19 18:44:16 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:16 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:44:16 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:16 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:44:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:44:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:17 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:44:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:44:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:17 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:44:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:18 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:44:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:18 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : dulce
+2016-11-19 18:44:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:18 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : dulce
+2016-11-19 18:44:38 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:44:38 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:38 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : aaaaa
+2016-11-19 18:44:38 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:38 INFO  EetacDataBase:49 - Se crea un usuario: aaaaa / aaaaa y se inserta en el HashMap
+2016-11-19 18:44:41 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:41 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aaaaa
+2016-11-19 18:44:54 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:54 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : aaaaa
+2016-11-19 18:44:58 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:44:58 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aaaaa
+2016-11-19 18:45:16 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:16 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : aaaaa
+2016-11-19 18:45:33 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-19 18:45:33 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:33 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : aasa
+2016-11-19 18:45:33 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:33 INFO  EetacDataBase:49 - Se crea un usuario: aasa / sasas y se inserta en el HashMap
+2016-11-19 18:45:37 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:37 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-19 18:45:37 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:37 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : aasa
+2016-11-19 18:45:37 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:37 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-19 18:45:39 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:39 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-19 18:45:42 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:42 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-19 18:45:43 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:43 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-19 18:45:45 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:45 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-19 18:45:45 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:45 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : aasa
+2016-11-19 18:45:46 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-19 18:45:46 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : aasa
+2016-11-20 14:07:18 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-20 14:07:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:07:18 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Borta
+2016-11-20 14:07:18 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-20 14:07:18 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:07:18 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Borta
+2016-11-20 14:07:18 FATAL EetacDataBase:86 - Excepcion : java.lang.NullPointerException
+2016-11-20 14:07:19 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:07:19 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Borta
+2016-11-20 14:07:19 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException
+2016-11-20 14:09:07 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-20 14:09:07 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:07 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : Bort
+2016-11-20 14:09:11 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:11 INFO  EetacDataBase:61 - Se recupera el usuario por el nombre de : Bort
+2016-11-20 14:09:11 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:11 INFO  EetacDataBase:49 - Se crea un usuario: Bort / Bortpls y se inserta en el HashMap
+2016-11-20 14:09:15 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:15 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:15 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:15 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-20 14:09:16 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:16 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:17 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:17 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:19 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:19 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:21 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:21 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:09:21 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:21 INFO  EetacDataBase:81 - Inserta un etakemon al usuario con el nombre de : Bort
+2016-11-20 14:09:22 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:09:22 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Bort
+2016-11-20 14:56:29 INFO  EetacDataBase:16 - Se crea el Hashmap eetaccustomers
+2016-11-20 14:56:29 INFO  EetacDataBase:22 - Se devuleve la instancia
+2016-11-20 14:56:29 INFO  EetacDataBase:69 - Se recupera la lista de etakemons de un usuario por el nombre de : Borta
+2016-11-20 14:56:29 FATAL EetacDataBase:74 - Excepcion : java.lang.NullPointerException

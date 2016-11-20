@@ -17,9 +17,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("#res").text("");
             var cookie = document.cookie;
             $("#btn1").click(function (){
+                $("#res").text("");
             $.get("/Etakemons",{cookie:cookie},function(responseJson) {
 
                     var $ul = $("<ul>").appendTo($("#res"));
@@ -31,6 +31,7 @@
             });
             });
             $("#btn2").click(function (){
+                $("#res").text("");
                 var name= $("#name").val();
                 var description= $("#description").val();
                     $.post("/Etakemons",{name:name,description:description,cookie:cookie},function(responseJson) {
@@ -39,8 +40,9 @@
 
         });
             $("#btn3").click(function (){
-                $.get("/EtakemonsDAO",{cookie:cookie},function(responseJson) {
 
+                $("#res").text("");
+                $.get("/EtakemonsDAO",{cookie:cookie},function(responseJson) {
                     var $ul = $("<ul>").appendTo($("#res"));
                     $.each(responseJson, function(index, item) {
                         $("<li>").text(item).appendTo($ul)});
@@ -50,6 +52,7 @@
                 });
             });
             $("#btn4").click(function (){
+                $("#res").text("");
                 var name= $("#name").val();
                 var description= $("#description").val();
                 $.post("/EtakemonsDAO",{name:name,description:description,cookie:cookie},function(responseJson) {
